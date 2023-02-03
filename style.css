@@ -26,6 +26,7 @@ section {
   color: white;
 }
 #studio .textbox h2 {
+  text-shadow: 10px 10px 10px;
   font-size: 40px;
   font-style: italic;
 }
@@ -42,6 +43,12 @@ section {
 #studio .textbox .btn h3 {
   cursor: pointer;
   font-size: 18px;
+}
+@media screen and (max-width: 992px) {
+  #studio #section {
+    width: 100%;
+    background-size: 80%;
+  }
 }
 
 header {
