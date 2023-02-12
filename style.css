@@ -250,6 +250,11 @@ header .menu nav a:hover {
   font-style: italic;
   color: #6c757d;
 }
+@media screen and (max-width: 992px) {
+  #portfolio .textbox .imgbox {
+    width: 50%;
+  }
+}
 
 #about h1 {
   font-weight: 700;
