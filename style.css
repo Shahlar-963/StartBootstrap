@@ -174,10 +174,7 @@ header .menu nav a:hover {
     left: 47px;
   }
   #services .textbox .minibox h2 {
-    margin-right: -23px;
-  }
-  #services .textbox .minibox p {
-    margin-right: -55px;
+    font-size: 30px;
   }
   #services .left {
     width: 287px;
@@ -188,7 +185,7 @@ header .menu nav a:hover {
     padding: 0 54px 50px 144px;
   }
   #services .textbox .minibox {
-    margin-left: -119px;
+    margin-left: -77px;
   }
   #services .wid {
     width: 420px;
