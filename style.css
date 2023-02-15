@@ -423,6 +423,21 @@ header .menu nav a:hover {
 #team .wid {
   width: 714px;
 }
+@media screen and (max-width: 992px) {
+  #team h1, #team h3 {
+    margin-left: 26px;
+  }
+  #team .textbox ul li {
+    width: 20%;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #team .textbox ul li {
+    width: 10%;
+    padding: 16px;
+  }
+}
 
 #partner .imgbox {
   width: 200px;
