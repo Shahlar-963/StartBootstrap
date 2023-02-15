@@ -293,7 +293,6 @@ header .menu nav a:hover {
 #about .box {
   display: flex;
   margin-bottom: 100px;
-  position: relative;
 }
 #about .box .minibox h2, #about .box .minibox h5 {
   font-weight: 700;
@@ -305,6 +304,9 @@ header .menu nav a:hover {
   font-size: 20px;
   color: #6c757d;
 }
+#about .box .imgbox {
+  margin-left: 38px;
+}
 #about .box .imgbox img {
   border: 7px solid #e9ecef;
   border-radius: 50%;
@@ -314,7 +316,7 @@ header .menu nav a:hover {
   margin-left: 110px;
 }
 #about .right {
-  margin-right: 110px;
+  margin-right: 80px;
 }
 #about .textbox {
   position: relative;
