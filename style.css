@@ -248,8 +248,32 @@ header .menu nav a:hover {
   color: #6c757d;
 }
 @media screen and (max-width: 992px) {
-  #portfolio .textbox .imgbox {
-    width: 50%;
+  #portfolio .box {
+    margin-left: 30%;
+  }
+  #portfolio .box h1 {
+    font-size: 50px;
+  }
+  #portfolio .box h3 {
+    font-size: 24px;
+  }
+  #portfolio .textbox {
+    position: relative;
+    left: 15%;
+  }
+  #portfolio .textbox .minibox h2 {
+    font-size: 33px;
+  }
+  #portfolio .textbox .minibox h4 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #portfolio .box {
+    margin-left: 0;
+  }
+  #portfolio .textbox {
+    position: static;
   }
 }
 
