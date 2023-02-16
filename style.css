@@ -439,11 +439,40 @@ header .menu nav a:hover {
   }
 }
 
-#partner .imgbox {
-  width: 200px;
+#partner {
+  padding: 35px 0;
 }
-#partner .imgbox img {
+#partner .textbox .imgbox {
+  width: 164px;
+}
+#partner .textbox .imgbox img {
   cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  #partner .textbox {
+    position: relative;
+    left: 12%;
+  }
+  #partner .textbox .imgbox {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #partner .textbox {
+    position: relative;
+    left: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  #partner .textbox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+  }
+  #partner .textbox .imgbox {
+    margin-bottom: 30px;
+  }
 }
 
 #contact {
