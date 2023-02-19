@@ -532,23 +532,35 @@ header .menu nav a:hover {
   color: white;
 }
 @media screen and (max-width: 1200px) {
+  #contact .add input {
+    width: 455px;
+  }
   #contact .text textarea {
     max-width: 490px;
   }
 }
 @media screen and (max-width: 992px) {
+  #contact .add input {
+    width: 337px;
+  }
   #contact .text textarea {
-    max-width: 390px;
+    max-width: 408px;
   }
 }
 @media screen and (max-width: 768px) {
+  #contact .add input {
+    width: 514px;
+  }
   #contact .text textarea {
     max-width: 517px;
   }
 }
 @media screen and (max-width: 576px) {
+  #contact .add input {
+    width: 532px;
+  }
   #contact .text textarea {
-    max-width: 470px;
+    max-width: 534px;
   }
 }
 
