@@ -157,24 +157,21 @@ header .menu nav a:hover {
     left: 85px;
   }
   #services .textbox .minibox p, #services .textbox .minibox h2 {
-    margin-right: 60px;
+    margin-right: 94px;
   }
 }
 @media screen and (max-width: 992px) {
-  #services .box {
-    margin-left: 14%;
-  }
   #services .textbox {
     width: 100%;
     margin-left: 20px;
   }
   #services .textbox .icon {
-    width: 79%;
-    padding: 39px;
+    width: 51%;
+    padding: 21px;
     left: 47px;
   }
-  #services .textbox .minibox h2 {
-    font-size: 30px;
+  #services .textbox .icon i {
+    font-size: 54px;
   }
   #services .left {
     width: 287px;
@@ -186,6 +183,9 @@ header .menu nav a:hover {
   }
   #services .textbox .minibox {
     margin-left: -77px;
+  }
+  #services .textbox .minibox p, #services .textbox .minibox h2 {
+    margin-right: 128px;
   }
   #services .wid {
     width: 420px;
@@ -340,7 +340,7 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 992px) {
   #about h1, #about h3 {
-    margin-left: 212px;
+    margin-left: 80px;
   }
   #about .textbox {
     width: 20%;
