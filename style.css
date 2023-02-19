@@ -432,9 +432,16 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 768px) {
+  #team .textbox {
+    width: 300px;
+    margin-left: 26%;
+  }
   #team .textbox ul li {
-    width: 10%;
-    padding: 16px;
+    width: 12%;
+    padding: 10px;
+  }
+  #team .textbox ul li i {
+    font-size: 13px;
   }
 }
 
