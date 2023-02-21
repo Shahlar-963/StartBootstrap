@@ -44,9 +44,18 @@ section {
   font-size: 18px;
 }
 @media screen and (max-width: 992px) {
-  #studio #section {
+  #studio {
     width: 100%;
-    background-size: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #studio {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  #studio {
+    width: 100%;
   }
 }
 
