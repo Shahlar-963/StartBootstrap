@@ -327,8 +327,6 @@ header .menu nav a:hover {
   margin-right: 80px;
 }
 #about .textbox {
-  position: relative;
-  left: 43%;
   border: 7px solid #e9ecef;
   border-radius: 50%;
   width: 15%;
