@@ -18,7 +18,7 @@ section {
   background-position: center center;
 }
 #studio .textbox {
-  position: relative;
+  transform: translate(12px, -135px);
   bottom: 120px;
   margin-top: 307px;
 }
